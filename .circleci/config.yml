@@ -2,6 +2,9 @@ version: 2
 jobs:
   build:
     working_directory: ~/working_directory
+    branches:
+      only:
+        - develop
     docker:
       - image: circleci/node:latest
     steps:
