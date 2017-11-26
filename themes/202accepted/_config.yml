@@ -2,7 +2,10 @@
 menu:
   Home: /
   Archives: /archives
+  Blog: /blog
 rss: /atom.xml
+github: https://github.com/cho0o0
+stackoverflow: https://stackoverflow.com/users/6279569/
 
 # Content
 excerpt_link: Read More
@@ -18,7 +21,7 @@ widgets:
 - recent_posts
 
 # display widgets at the bottom of index pages (pagination == 2)
-index_widgets:
+# index_widgets:
 # - category
 # - tagcloud
 # - archive
@@ -29,8 +32,10 @@ show_count: false
 
 # Miscellaneous
 google_analytics:
-favicon: /favicon.ico
+favicon: /images/favicon.ico
 twitter:
 google_plus:
 fb_admins:
 fb_app_id:
+
+language: default

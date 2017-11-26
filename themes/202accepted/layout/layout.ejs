@@ -5,7 +5,7 @@
       <div id="wrap">
         <%- partial('_partial/header', null, {cache: !config.relative_link}) %>
         <div class="outer">
-          <section id="main"><%- body %></section>
+            <section id="main"><%- body %></section>
           <% if (theme.sidebar && theme.sidebar !== 'bottom'){ %>
             <%- partial('_partial/sidebar', null, {cache: !config.relative_link}) %>
           <% } %>
@@ -15,32 +15,7 @@
       <%- partial('_partial/mobile-nav', null, {cache: !config.relative_link}) %>
       <%- partial('_partial/after-footer') %>
     <% } else{ %>
-      <div class="index-wrap">
-        <h1 class="title"></h1>
-        <ul class="links">
-          <li class="link"><a href="./archives">Blog</a></li>
-          <li class="link">GitHub</li>
-          <li class="link">Stack Overflow</li>
-          <li class="link">RSS</li>
-        </ul>
-      </div>
-      <script src="//unpkg.com/typed.js@2.0.6/lib/typed.js"></script>
-      <script>
-        // var title = document.querySelector('.index-wrap .title').innerHTML;
-        var typed = new Typed('.title', {
-          strings: ["202 Accepted"],
-          typeSpeed: 80,
-          showCursor: false,
-        });
-        
-        document.querySelectorAll('.index-wrap .link').forEach(el => {
-          // console.log(el);
-          el.addEventListener('mouseover', () => {
-            typed.strings[0] = el.innerHTML
-            typed.reset(true)
-          })
-        })
-      </script>
+      <%- partial('_partial/index') %>
     <% } %>
   </div>
 </body>
