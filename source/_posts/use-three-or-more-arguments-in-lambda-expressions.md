@@ -3,6 +3,7 @@ title: ラムダ式で３つ以上の引数に対応しよう
 date: 2016-08-01 14:16:00
 language: [japanese]
 tags: [java, functional-programming]
+category: tech
 ---
 
 # 引数が2つ以下の場合 

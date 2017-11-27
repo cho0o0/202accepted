@@ -3,6 +3,7 @@ title: ポリモーフィズムクイズ
 date: 2016-12-26 14:12:00
 language: [japanese]
 tags: [java]
+category: tech
 ---
 
 # 問題

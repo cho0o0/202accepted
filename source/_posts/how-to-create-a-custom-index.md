@@ -3,6 +3,7 @@ title: Hexoブログのカスタムホームページの作り方
 date: 2017-11-26 22:14:22
 language: [japanese]
 tags: [hexo]
+category: tech
 ---
 
 # 背景

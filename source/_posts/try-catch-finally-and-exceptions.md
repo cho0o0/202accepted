@@ -3,6 +3,7 @@ title: try-catch-finally、try-with-resources、そして発生した例外た�
 date: 2016-11-15 12:00:00
 language: [japanese]
 tags: [java]
+category: tech
 ---
 
 # 問題

@@ -3,6 +3,7 @@ title: コンポーネント間イベント通信の方法を変更しよう
 date: 2016-08-30 12:50:00
 language: [japanese]
 tags: [vue.js, javascript]
+category: tech
 ---
 
 # 背景
