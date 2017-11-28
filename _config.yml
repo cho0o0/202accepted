@@ -111,7 +111,7 @@ pwa:
           sizes: 512x512
           type: image/png
   serviceWorker:
-    path: /js/sw.js
+    path: /sw.js
     preload:
       urls:
         - /
