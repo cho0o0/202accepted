@@ -116,7 +116,6 @@ pwa:
       urls:
         - /
         - ./
-        - ./blog
       posts: 5
     opts:
       networkTimeoutSeconds: 5
