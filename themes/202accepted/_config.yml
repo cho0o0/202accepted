@@ -31,7 +31,7 @@ archive_type: 'monthly'
 show_count: false
 
 # Miscellaneous
-google_analytics:
+google_analytics: UA-110320379-1
 favicon: /images/favicon.ico
 twitter:
 google_plus:

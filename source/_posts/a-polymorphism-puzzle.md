@@ -54,7 +54,7 @@ class MyTest
 - `hello`という関数は`message`というフィールドを使います。クラス`A`の`message`は`hello`ですので、出力結果は`hello world`になります。クラス`B`にも`message`というフィールドが存在しますが、今使っている`hello`関数とは無関係ですね。
 - さらに`main`の四行目ですが、`b`オブジェクトの`hello`関数を利用しているように見えますね。しかし、フィールド変数のオーバーライドが存在しないことを忘れてはいけません。`hello`関数は`hello`メソッドと同じく処理手続きを定義するものですが、本質的には`message`のようなフィールド変数です。その為、どのフィールドが利用されるかは宣言時の参照型によります。`A`として宣言された為、クラス`A`の`hello`関数が利用され、二行目の出力結果と同じようになります。
 
-#参考
+# 参考
 - https://docs.oracle.com/javase/tutorial/java/IandI/polymorphism.html
 - https://docs.oracle.com/javase/jp/8/docs/api/java/util/function/Consumer.html
 
