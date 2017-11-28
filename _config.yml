@@ -116,8 +116,7 @@ pwa:
       urls:
         - /
         - ./
-        - https://202accepted.com
-        - https://202accepted.com/blog
+        - ./blog
       posts: 5
     opts:
       networkTimeoutSeconds: 5
