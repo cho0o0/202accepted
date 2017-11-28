@@ -98,6 +98,9 @@ pwa:
     body:
       name: 202Accepted
       short_name: 202Accepted
+      start_url: .
+      display: standalone
+      description: Yet another personal website
       icons:
         - src: /images/favicon.png
           sizes: 256x256
@@ -111,7 +114,9 @@ pwa:
     opts:
       networkTimeoutSeconds: 5
     routes:
-      - pattern: !!js/regexp /www.google-analytics.com/
+      - pattern: !!js/regexp /google-analytics/
+        strategy: networkOnly
+      - pattern: !!js/regexp /disquscdn/
         strategy: networkOnly
       - pattern: !!js/regexp /.*\.(js|css|jpg|jpeg|png|gif)$/
         strategy: cacheFirst
