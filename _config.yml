@@ -99,18 +99,25 @@ pwa:
       name: 202Accepted
       short_name: 202Accepted
       start_url: .
-      background_color: #333
+      background_color: #eee
+      theme_color: #333
       display: standalone
       description: Yet another personal website
       icons:
         - src: /images/favicon.png
           sizes: 256x256
           type: image/png
+        - src: /images/favicon512.png
+          sizes: 512x512
+          type: image/png
   serviceWorker:
     path: /js/sw.js
     preload:
       urls:
         - /
+        - ./
+        - https://202accepted.com
+        - https://202accepted.com/blog
       posts: 5
     opts:
       networkTimeoutSeconds: 5
