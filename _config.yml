@@ -88,6 +88,9 @@ feed:
 # disqus
 disqus_shortname: 202-accepted
 
+# minifier
+all_minifier: true
+
 # pwa
 pwa:
   manifest:
@@ -104,7 +107,6 @@ pwa:
     preload:
       urls:
         - /
-        - /blog
       posts: 5
     opts:
       networkTimeoutSeconds: 5
