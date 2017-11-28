@@ -34,6 +34,9 @@ fi
 hexo deploy
 cp -a "../public/." .
 
+# generate CNAME file for custom domain
+echo "$GH_CNAME" > CNAME
+
 # stage any changes and new files
 git add -A
 # now commit, ignoring branch master doesn't seem to work, so trying skip
