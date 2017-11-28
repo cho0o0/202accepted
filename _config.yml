@@ -99,6 +99,7 @@ pwa:
       name: 202Accepted
       short_name: 202Accepted
       start_url: .
+      background_color: #333
       display: standalone
       description: Yet another personal website
       icons:
