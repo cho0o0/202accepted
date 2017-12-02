@@ -1,11 +1,11 @@
 <% site.posts.sort('date', -1).each(function(post){ %>
   <%- partial('_partial/article', {post: post, index: true}) %>
-<% }) %>
-<% if (page.total > 1){ %>
-  <nav id="page-nav">
-    <%- paginator({
+    <% }) %>
+      <% if (page.total > 1){ %>
+        <nav id="page-nav">
+          <%- paginator({
       prev_text: "&laquo; __('prev')",
       next_text: "__('next') &raquo;"
     }) %>
-  </nav>
-<% } %>
+        </nav>
+        <% } %>

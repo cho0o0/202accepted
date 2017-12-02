@@ -88,9 +88,6 @@ feed:
 # disqus
 disqus_shortname: 202-accepted
 
-# minifier
-all_minifier: true
-
 # pwa
 pwa:
   manifest:
@@ -128,3 +125,6 @@ pwa:
         strategy: cacheFirst
       - pattern: !!js/regexp /\//
         strategy: networkFirst
+
+# minifier
+all_minifier: true

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="871px" height="375px" viewBox="0 0 871 375" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>mountain</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#C9C4DC" offset="0%"></stop>
+            <stop stop-color="#D7D2EB" offset="100%"></stop>
+        </linearGradient>
+        <polygon id="path-2" points="604.5 185 757 375 452 375"></polygon>
+        <polygon id="path-3" points="202.613182 194.931798 356 375 7.31031607 375"></polygon>
+        <path d="M389.516643,156.358932 C620.25888,146.130134 557,367.94978 557,367.94978 L147,367.94978 C147,367.94978 158.774406,166.587729 389.516643,156.358932 Z" id="path-4"></path>
+        <linearGradient x1="109.133409%" y1="45.1520647%" x2="101.999998%" y2="100.999999%" id="linearGradient-5">
+            <stop stop-color="#6556F0" offset="0%"></stop>
+            <stop stop-color="#C96DD8" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-6">
+            <stop stop-color="#353FE1" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="109.133409%" y1="45.1520647%" x2="101.999998%" y2="100.999999%" id="linearGradient-7">
+            <stop stop-color="#3A3190" offset="0%"></stop>
+            <stop stop-color="#9A51A6" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-8">
+            <stop stop-color="#FF9E5C" offset="0%"></stop>
+            <stop stop-color="#F15F16" offset="100%"></stop>
+        </linearGradient>
+        <path d="M397.583508,125.689479 C397.207206,126.618125 397,127.63346 397,128.697242 L397,147.681717 C397,152.108347 400.584257,155.689479 405.005662,155.689479 L425.994338,155.689479 C430.418666,155.689479 434,152.104282 434,147.681717 L434,128.697242 C434,127.633128 433.792877,126.617874 433.416792,125.689479 L452,125.689479 L416,97 L380,125.689479 L397.583508,125.689479 Z" id="path-9"></path>
+        <linearGradient x1="9.18485099e-15%" y1="50%" x2="100%" y2="50%" id="linearGradient-10">
+            <stop stop-color="#C9C4DC" offset="0%"></stop>
+            <stop stop-color="#D7D2EB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="moutain-bg3">
+            <use fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+            <use fill="#FFFFFF" style="mix-blend-mode: color-burn;" xlink:href="#path-2"></use>
+        </g>
+        <g id="mountain-bg2">
+            <use fill="url(#linearGradient-1)" xlink:href="#path-3"></use>
+            <use fill="#FFFFFF" style="mix-blend-mode: color-burn;" xlink:href="#path-3"></use>
+        </g>
+        <g id="mountain-bg1">
+            <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-4"></use>
+            <use fill="#FFFFFF" fill-rule="evenodd" style="mix-blend-mode: color-burn;" xlink:href="#path-4"></use>
+            <use stroke="#FFFFFF" stroke-width="1" xlink:href="#path-4"></use>
+        </g>
+        <g id="mountain3" transform="translate(379.000000, 147.000000)">
+            <polygon id="Triangle" stroke="url(#linearGradient-6)" fill="url(#linearGradient-5)" points="126.5 0.666666667 253 228 0 228"></polygon>
+            <polygon id="Triangle-Copy" stroke="url(#linearGradient-6)" fill="url(#linearGradient-7)" points="127.077045 1.88639971 253 228 165.165526 228"></polygon>
+            <polygon id="Path-2" fill="#FFFFFF" points="126.349542 0.766873154 97.9344064 52.0208186 115.164736 38.3517079 123.410064 70.547995 133.875104 41.6172133"></polygon>
+            <polygon id="Path-3" fill="#D8D8D8" points="126.357711 0.268667464 133.829103 41.6421332 140.880167 50.1156012 141.316734 35.4026483 151.422682 44.9112581"></polygon>
+        </g>
+        <g id="mountain2" transform="translate(1.000000, 213.000000)">
+            <path d="M152.5,0.943603849 C263.888245,0.943603849 305,162 305,162 L0,162 C0,162 41.1117555,0.943603849 152.5,0.943603849 Z" id="Triangle-2" stroke="url(#linearGradient-6)" fill="url(#linearGradient-5)"></path>
+            <path d="M258.85343,63.7320745 C234.654117,30.1755423 199.954694,0.943603849 152.5,0.943603849 C102.421183,0.943603849 66.5473085,33.4978297 42.228032,69.3343037 L96.6618451,46.2958252 L127.683492,75.990217 L160.032395,46.2958252 L187.862793,70.8393259 L191.50197,21.9324327 L260.236625,65.936338 L258.853423,63.7320658 Z" id="Combined-Shape" stroke="url(#linearGradient-6)" fill="#FFFFFF"></path>
+            <path d="M160.255718,1.20754754 C265.802472,8.44264079 305,162 305,162 L219.134006,162 C213.03709,115.221799 197.718216,53.5945366 160.255696,1.20754609 Z" id="Combined-Shape" fill="url(#linearGradient-7)"></path>
+            <path d="M259.487974,64.6163228 C236.590011,32.5504245 204.164201,4.21741715 160.255718,1.20754754 C171.945163,17.5539103 181.478651,34.7999382 189.248725,52.2137867 L191.50197,21.9324327 L260.236625,65.936338 L259.487974,64.6163228 Z" id="Combined-Shape" fill="#D4D4D6"></path>
+        </g>
+        <circle id="sun" fill="url(#linearGradient-8)" cx="91.5" cy="48.5" r="48.5"></circle>
+        <g id="house" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="2,8">
+            <use stroke="#C9C4DC" stroke-width="4" xlink:href="#path-9"></use>
+            <use stroke-opacity="0.4" stroke="#FFFFFF" stroke-width="1" xlink:href="#path-9"></use>
+        </g>
+        <g id="mountain1" transform="translate(146.000000, 33.000000)">
+            <polygon id="Triangle" stroke="url(#linearGradient-6)" fill="url(#linearGradient-5)" points="189.5 1 379 342 0 342"></polygon>
+            <polygon id="Triangle-Copy" stroke="url(#linearGradient-6)" fill="url(#linearGradient-7)" points="190.364428 2.82959957 379 342 247.421875 342"></polygon>
+            <polygon id="Path-2" fill="#FFFFFF" points="189.27461 1.15030973 146.708063 78.0312278 172.519506 57.5275619 184.871202 105.821992 200.54808 62.4258199"></polygon>
+            <polygon id="Path-3" fill="#D8D8D8" points="189.286847 0.403001196 200.479171 62.4631998 211.041832 75.1734018 211.695819 53.1039724 226.834768 67.3668872"></polygon>
+        </g>
+        <path d="M431,80.6820747 C431,66.4338189 494.231326,13.548892 536.370509,13.7643511 C589.59503,14.0364899 622.73916,32.8038234 624.171359,50.7279559 C624.631443,56.4859474 629.918267,82.3437459 599.292343,79.5035908 C582.13428,77.9124042 564.685527,57.4978786 599.292343,37.4203312 C619.737037,25.5591042 640.394042,49.2882296 645.273927,53.3903547 C658.984903,64.916065 669.087061,89.3707658 669.087061,89.3707658" id="path" stroke="url(#linearGradient-10)" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="3,8"></path>
+        <text id="404-Not-Found.." fill="url(#linearGradient-1)" font-family="Roboto-Bold, Roboto" font-size="48" font-weight="bold">
+            <tspan x="525" y="144">404 Not Found..</tspan>
+        </text>
+    </g>
+</svg>
