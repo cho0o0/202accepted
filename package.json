@@ -6,6 +6,9 @@
     "version": "3.4.2"
   },
   "dependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015-webpack": "^6.4.3",
     "hexo": "^3.2.0",
     "hexo-all-minifier": "^0.4.0",
     "hexo-generator-archive": "^0.1.4",
@@ -16,6 +19,8 @@
     "hexo-renderer-ejs": "^0.3.0",
     "hexo-renderer-marked": "^0.3.0",
     "hexo-renderer-stylus": "^0.3.1",
-    "hexo-server": "^0.2.0"
+    "hexo-renderer-webpack-2-advanced": "^0.5.0",
+    "hexo-server": "^0.2.0",
+    "webpack": "^3.9.1"
   }
 }
