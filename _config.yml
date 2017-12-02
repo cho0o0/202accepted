@@ -128,3 +128,6 @@ pwa:
         strategy: cacheFirst
       - pattern: !!js/regexp /\//
         strategy: networkFirst
+
+# webpack
+webpack_config: './webpack.config.js'
