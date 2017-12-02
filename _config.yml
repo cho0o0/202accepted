@@ -89,7 +89,7 @@ feed:
 disqus_shortname: 202-accepted
 
 # minifier
-all_minifier: false
+all_minifier: true
 
 # pwa
 pwa:

@@ -1,43 +1,5 @@
 <div class="index-wrap">
-  <h1 class="title" data-title="202 Accepted"></h1>
-  <ul class="links">
-    <% if (theme.menu.Archives){ %>
-    <li class="link"><a href="<%- url_for(theme.menu.Blog) %>">Blog</a></li>
-    <% } %>
-
-    <% if (theme.github){ %>
-    <li class="link"><a href="<%- theme.github %>" target="_blank" rel="noopener">GitHub</a></li>
-    <% } %>
-    
-    <% if (theme.stackoverflow){ %>
-    <li class="link"><a href="<%- theme.stackoverflow %>" target="_blank" rel="noopener">Stack Overflow</a></li>
-    <% } %>
-    
-    <% if (theme.rss){ %>
-    <li class="link"><a href="<%- theme.rss %>" target="_blank" rel="noopener">RSS</a></li>
-    <% } %>
-  </ul>
+  <!-- to be inserted -->
+  <index :theme="<%= JSON.stringify(theme) %>"></index>
 </div>
-<script src="//unpkg.com/typed.js@2.0.6/lib/typed.js"></script>
 <script src="js/index.js"></script>
-<!-- <script>
-  var title = document.querySelector('.index-wrap .title').getAttribute('data-title');
-  var typed = new Typed('.title', {
-    strings: [title],
-    typeSpeed: 80,
-    showCursor: false,
-  });
-  
-  
-  document.querySelectorAll('.index-wrap .link a').forEach(function(el) {
-    el.addEventListener('mouseover', function() {
-      typed.strings[0] = el.innerHTML
-      typed.reset(true)
-    })
-    
-    el.addEventListener('focus', function() {
-      typed.strings[0] = el.innerHTML
-      typed.reset(true)
-    })
-  })
-</script> -->

@@ -1,19 +1,9 @@
-var title = document.querySelector('.index-wrap .title').getAttribute('data-title');
-var typed = new Typed('.title', {
-  strings: [title],
-  typeSpeed: 80,
-  showCursor: false,
-});
+import Vue from 'vue';
+import index from './index.vue';
 
-
-document.querySelectorAll('.index-wrap .link a').forEach(el => {
-  el.addEventListener('mouseover', () => {
-    typed.strings[0] = el.innerHTML;
-    typed.reset(true);
-  });
-  
-  el.addEventListener('focus', () => {
-    typed.strings[0] = el.innerHTML;
-    typed.reset(true);
-  });
+new Vue({
+  el: '.index-wrap',
+  components: {
+    index
+  }
 });
