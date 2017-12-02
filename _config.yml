@@ -128,3 +128,8 @@ pwa:
 
 # minifier
 all_minifier: true
+
+excerpt:
+  depth: 6
+  excerpt_excludes: []
+  more_excludes: []
