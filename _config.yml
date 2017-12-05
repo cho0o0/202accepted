@@ -90,6 +90,7 @@ disqus_shortname: 202-accepted
 
 # pwa
 pwa:
+  priority: 5
   manifest:
     path: /manifest.json
     body:
@@ -127,7 +128,17 @@ pwa:
         strategy: networkFirst
 
 # minifier
-all_minifier: true
+asset_pipeline:
+  revisioning:
+    enable: false
+  clean_css:
+    enable: true
+  uglify_js:
+    enable: true
+  imagemin:
+    enable: true
+  html_minifier:
+    enable: true
 
 excerpt:
   depth: 6

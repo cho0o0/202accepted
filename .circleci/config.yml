@@ -6,7 +6,7 @@ jobs:
       only:
         - develop
     docker:
-      - image: circleci/node:latest
+      - image: circleci/node:latest-browsers
     steps:
       - checkout
       - run:
