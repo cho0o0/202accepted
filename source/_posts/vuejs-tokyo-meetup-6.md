@@ -24,7 +24,7 @@ Web開発を行う際に、使いやすい開発環境は非常に大事な要�
 
 # UIフレームワーク
 
-![Element UI](http://element.eleme.io/static/guide.0a8462c.png)
+![Element UI](https://camo.githubusercontent.com/462f24153b8e8739c8ea71f7102585c4cb0e1575/68747470733a2f2f63646e2e7261776769742e636f6d2f456c656d6546452f656c656d656e742f6465762f656c656d656e745f6c6f676f2e737667)
 
 TypeScriptの話と別に、@maeharinさんがスライドの中で、UIフレームワークである[Element](http://element.eleme.io/)を絶賛していました。Elementは中国のウェブベンチャーElemeが主導して開発したVue.jsのUIフレームワークです。デザインがシンプルで、多くのUIコンポーネントが提供されているため、人気を博し、Vue.jsのUIフレームワークの中で、もっとも人気があるフレームワークのひとつです。`Vue.use`の中にロケールの設定と一緒に入れるだけで日本語がサポートされるし、Veturの自動補完にも対応しています。さらに、各コンポーネントの設定項目が豊富で、バリデーションもかなりやりやすいそうです。Vue.jsのプロジェクトを試しに作りたい場合、Elementと組み合わせれば、素早く開発できそうな予感がしますね。当然ながら、Vue.jsのUIフレームワークはこの一つだけではありません。例えばスライドの中に挙げて頂いた、グーグルのマテリアルデザインに従っている[vuetify](https://vuetifyjs.com/)や、Bootstrapスタイルの[bootstrap-vue](https://bootstrap-vue.js.org/)などもそれなりに成熟できているので、迷ってしまうほど多くの選択肢があると思います。  
 
