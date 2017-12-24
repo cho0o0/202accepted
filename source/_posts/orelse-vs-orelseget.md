@@ -22,7 +22,7 @@ category: tech
 
 一方、`orElseGet`は[こんな感じ](https://docs.oracle.com/javase/jp/8/docs/api/java/util/Optional.html#orElseGet-java.util.function.Supplier-)です。
 
-> public T orElseGet(Supplier<? extends T> other)
+> `public T orElseGet(Supplier<? extends T> other)`
 > 値が存在する場合はその値を返し、そうでない場合はotherを呼び出し、その呼び出しの結果を返します。
 > 
 > パラメータ:
@@ -73,6 +73,6 @@ public class MyTest2 {
 
 # まとめ
 上記のようなコードであれば、まだそんなに問題になりませんが、例えば「Optional内の値はnullの場合、データベースにレコードを挿入し、割り当てられたIDを返す」、「Optional内の値はnullの場合、某APIを叩き、データを取ってくる」みたいなロジックを実装する際に、該当ロジックは常に実行されるので、`orElse`を使ってはいけません。間違って使ってしまうと、速度が大幅に遅くなってしまう上、データの整合性が取れなくなってしまうでしょう。  
-要するに、ラムダの「遅延実行」特性をちゃんと覚えようということですね。ss
+要するに、ラムダの「遅延実行」特性をちゃんと覚えようということですね。
 
 
