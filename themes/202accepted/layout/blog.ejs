@@ -1,11 +1,8 @@
-<% site.posts.sort('date', -1).each(function(post){ %>
+<% site.posts.sort('date', -1).slice(0, 7).each(function(post){ %>
   <%- partial('_partial/article', {post: post, index: true}) %>
-    <% }) %>
-      <% if (page.total > 1){ %>
-        <nav id="page-nav">
-          <%- paginator({
-      prev_text: "&laquo; __('prev')",
-      next_text: "__('next') &raquo;"
-    }) %>
-        </nav>
-        <% } %>
+<% }) %>
+<% if (site.posts.length > 8){ %>
+  <p class="articles-more-link">
+    <a href="../archives/">Check All</a>
+  </p>
+<% } %>

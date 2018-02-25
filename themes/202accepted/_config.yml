@@ -32,6 +32,7 @@ show_count: false
 
 # Miscellaneous
 google_analytics: UA-110320379-1
+google_tag_manager: GTM-KSBSTZ3
 favicon: /images/favicon.ico
 twitter:
 google_plus:
