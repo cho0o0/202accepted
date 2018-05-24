@@ -7,7 +7,7 @@ category: tech
 ---
 
 「[Vue.js Tokyo v-meetup #7](https://vuejs-meetup.connpass.com/event/82065/)」にて発表させて頂きました。
-スライドは[こちら](https://speakerdeck.com/cho0o0/vuex-plugin-101-full-ver-dot/edit)です。
+スライドは[こちら](https://speakerdeck.com/cho0o0/vuex-plugin-101-full-ver-dot/)です。
 
 <script async class="speakerdeck-embed" data-id="3ea698ce58a24bd7a5137a32a69794cc" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
