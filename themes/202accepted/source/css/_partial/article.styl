@@ -18,8 +18,9 @@
   color: #ccc
   text-shadow: 0 1px #fff
   margin-left: 8px
+
   &:before
-    content: "\2022"
+    content: '\2022'
 
 .article-category-link
   @extend $block-caption
@@ -35,6 +36,7 @@
   color: color-default
   line-height: line-height-title
   transition: color 0.2s
+
   a&:hover
     color: color-link
 
@@ -43,40 +45,52 @@
   clearfix()
   color: color-default
   padding: 0 article-padding
+
   p, table
     line-height: line-height
     margin: line-height 0
+
   h1, h2, h3, h4, h5, h6
     font-weight: bold
+
   h1, h2, h3, h4, h5, h6
     line-height: line-height-title
     margin: line-height-title 0
+
   a
     color: color-link
     text-decoration: none
+
     &:hover
       text-decoration: underline
+
   ul, ol, dl
     margin-top: line-height
     margin-bottom: line-height
+
   img, video
     max-width: 100%
     height: auto
     display: block
     margin: auto
+
   iframe
     border: none
+
   table
     width: 100%
     border-collapse: collapse
     border-spacing: 0
+
   th
     font-weight: bold
     border-bottom: 3px solid color-border
     padding-bottom: 0.5em
+
   td
     border-bottom: 1px solid color-border
     padding: 10px 0
+
   blockquote
     font-family: font-serif
     // font-size: 1.4em
@@ -84,24 +98,30 @@
     // text-align: center
     background-color: #fff2da
     padding-left: 5px
+
     footer
       font-size: font-size
       margin: line-height 0
       font-family: font-sans
+
       cite
         &:before
-          content: "—"
+          content: '—'
           padding: 0 0.5em
+
   .pullquote
     text-align: left
     width: 45%
     margin: 0
+
     &.left
       margin-left: 0.5em
       margin-right: 1em
+
     &.right
       margin-right: 0.5em
       margin-left: 1em
+
   .caption
     color: color-grey
     display: block
@@ -109,12 +129,14 @@
     margin-top: 0.5em
     position: relative
     text-align: center
+
   // http://webdesignerwall.com/tutorials/css-elastic-videos
   .video-container
     position: relative
     padding-top: (9 / 16 * 100)% // 16:9 ratio
     height: 0
     overflow: hidden
+
     iframe, object, embed
       position: absolute
       top: 0
@@ -132,6 +154,7 @@
   color: color-grey
   text-shadow: 0 1px #fff
   text-decoration: none
+
   &:hover
     background: color-link
     color: #fff
@@ -145,9 +168,11 @@
   border-top: 1px solid color-border
   padding-top: line-height
   margin: 0 article-padding article-padding
+
   a
     color: color-grey
     text-decoration: none
+
     &:hover
       color: color-default
 
@@ -157,12 +182,13 @@
 
 .article-tag-list-link
   &:before
-    content: "#"
+    content: '#'
 
 .article-comment-link
   float: right
+
   &:before
-    content: "\f075"
+    content: '\f075'
     font-family: font-icon
     padding-right: 8px
 
@@ -170,19 +196,22 @@
   cursor: pointer
   float: right
   margin-left: 20px
+
   &:before
-    content: "\f064"
+    content: '\f064'
     font-family: font-icon
     padding-right: 6px
 
 #article-nav
   clearfix()
   position: relative
+
   @media mq-normal
     margin: block-margin 0
+
     &:before
       absolute-center(8px)
-      content: ""
+      content: ''
       border-radius: 50%
       background: color-border
       box-shadow: 0 1px 2px #fff
@@ -195,8 +224,10 @@
   margin-top: block-margin
   text-align: center
   display: block
+
   &:hover
     color: color-default
+
   @media mq-normal
     width: 50%
     margin-top: 0
@@ -219,6 +250,7 @@
   color: color-border
   line-height: 1em
   font-weight: bold
+
   #article-nav-newer &
     margin-right: -2px
 
@@ -236,6 +268,7 @@
   margin-left: -145px
   overflow: hidden
   z-index: 1
+
   &.on
     display: block
 
@@ -257,52 +290,33 @@
   background: color-background
 
 $article-share-link
-  width: 50px
+  width: 100px
   height: 36px
   display: block
   float: left
   position: relative
   color: #999
   text-shadow: 0 1px #fff
-  &:before
-    font-size: 20px
-    font-family: font-icon
-    absolute-center(@font-size)
-    text-align: center
+  text-decoration: none
+  text-align: center
+  line-height: 36px
+
   &:hover
     color: #fff
 
 .article-share-twitter
   @extend $article-share-link
-  &:before
-    content: "\f099"
+
   &:hover
     background: color-twitter
     text-shadow: 0 1px darken(color-twitter, 20%)
 
 .article-share-facebook
   @extend $article-share-link
-  &:before
-    content: "\f09a"
+
   &:hover
     background: color-facebook
     text-shadow: 0 1px darken(color-facebook, 20%)
-
-.article-share-pinterest
-  @extend $article-share-link
-  &:before
-    content: "\f0d2"
-  &:hover
-    background: color-pinterest
-    text-shadow: 0 1px darken(color-pinterest, 20%)
-
-.article-share-google
-  @extend $article-share-link
-  &:before
-    content: "\f0d5"
-  &:hover
-    background: color-google
-    text-shadow: 0 1px darken(color-google, 20%)
 
 .article-gallery
   background: #000
@@ -315,11 +329,14 @@ $article-share-link
 .article-gallery-img
   display: none
   max-width: 100%
+
   &:first-child
     display: block
+
   &.loaded
     position: absolute
     display: block
+
   img
     display: block
     max-width: 100%
