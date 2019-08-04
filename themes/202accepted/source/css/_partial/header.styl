@@ -1,6 +1,7 @@
 #header
   position: relative
   background: color-header-background
+
 /*
   border-bottom: 1px solid color-border
   &:before, &:after
@@ -16,7 +17,6 @@
     bottom: 0
     background: linear-gradient(transparent, rgba(0, 0, 0, 0.2))
 */
-
 #header-outer
   height: 100%
   position: relative
@@ -36,7 +36,6 @@
   background-size: cover
   z-index: -1
 */
-
 #header-title
   // text-align: center
   height: 20px * 2 + font-size
@@ -59,14 +58,13 @@ $logo-text
   letter-spacing: 2px
 
 // #subtitle
-//   @extend $logo-text
-//   font-size: subtitle-size
-//   line-height: subtitle-size
-//   letter-spacing: 1px
+// @extend $logo-text
+// font-size: subtitle-size
+// line-height: subtitle-size
+// letter-spacing: 1px
 
 // #subtitle-wrap
-//   margin-top: subtitle-size
-
+// margin-top: subtitle-size
 #main-nav
   float: left
   margin-left: -15px
@@ -80,6 +78,7 @@ $nav-link
   transition: opacity 0.2s
   display: block
   padding: 20px 10px
+
   &:hover
     opacity: 1
 
@@ -98,13 +97,16 @@ $nav-link
   @extend $nav-link
   font-weight: 300
   letter-spacing: 1px
+
   @media mq-mobile
     display: none
 
 #main-nav-toggle
   display: none
+
   &:before
-    content: "\f0c9"
+    content: '\f0c9'
+
   @media mq-mobile
     display: block
 
@@ -114,35 +116,45 @@ $nav-link
 
 #nav-github-link
   &:before
-    content: "\f09b"
+    content: '\f09b'
 
 #nav-so-link
   &:before
-    content: "\f16c"
+    content: '\f16c'
 
 #nav-blog-link
   &:before
-    content: "\f022"
+    content: '\f022'
+
+#nav-speakerdeck-link
+  &:before
+    content: '\f83c'
+
+#nav-qiita-link
+  &:before
+    content: '\e801'
 
 #nav-rss-link
   &:before
-    content: "\f09e"
+    content: '\f09e'
 
 #nav-search-btn
   &:before
-    content: "\f002"
+    content: '\f002'
 
 #search-form-wrap
   position: absolute
   top: 15px
-  width: 150px
+  width: 200px
   height: 30px
-  right: -150px
+  right: -200px
   opacity: 0
   transition: 0.2s ease-out
+
   &.on
     opacity: 1
     right: 0
+
   @media mq-mobile
     width: 100%
     right: -100%
@@ -164,8 +176,8 @@ $nav-link
   width: 100%
   font: 13px font-sans
   outline: none
-  &::-webkit-search-results-decoration
-  &::-webkit-search-cancel-button
+
+  &::-webkit-search-results-decoration, &::-webkit-search-cancel-button
     -webkit-appearance: none
 
 .search-form-submit
@@ -178,5 +190,6 @@ $nav-link
   background: none
   color: #bbb
   cursor: pointer
+
   &:hover, &:focus
     color: #777

@@ -6,6 +6,8 @@ menu:
 rss: /atom.xml
 github: https://github.com/cho0o0
 stackoverflow: https://stackoverflow.com/users/6279569/
+speakerdeck: https://speakerdeck.com/cho0o0
+qiita: https://qiita.com/c-cho
 
 # Content
 excerpt_link: Read More
@@ -14,10 +16,10 @@ fancybox: true
 # Sidebar
 sidebar: bottom
 widgets:
-# - category
-# - tag
-- tagcloud
-- archive
+  # - category
+  # - tag
+  - tagcloud
+  - archive
 # - recent_posts
 
 # display widgets at the bottom of index pages (pagination == 2)

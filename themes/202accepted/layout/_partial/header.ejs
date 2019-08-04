@@ -2,20 +2,26 @@
   <div id="header-outer" class="outer">
     <div id="header-inner" class="inner">
       <div id="header-title" class="inner">
-          <a href="<%- url_for() %>" id="logo"><%= config.title %></a>
+        <a href="<%- url_for() %>" id="logo"><%= config.title %></a>
       </div>
       <nav id="sub-nav">
         <% if (theme.menu.Blog){ %>
-          <a id="nav-blog-link" class="nav-icon" href="<%- url_for(theme.menu.Blog) %>" title="<%= __('blog') %>"></a>
-        <% } %>
-        <% if (theme.github){ %>
-          <a id="nav-github-link" class="nav-icon" href="<%- theme.github %>" title="<%= __('github') %>"></a>
-        <% } %>
-        <% if (theme.stackoverflow){ %>
-          <a id="nav-so-link" class="nav-icon" href="<%- theme.stackoverflow %>" title="<%= __('stackoverflow') %>"></a>
-        <% } %>
-        <% if (theme.rss){ %>
-          <a id="nav-rss-link" class="nav-icon" href="<%- theme.rss %>" title="<%= __('rss_feed') %>"></a>
+        <a id="nav-blog-link" class="nav-icon" href="<%- url_for(theme.menu.Blog) %>" title="<%= __('blog') %>"></a>
+        <% } %> <% if (theme.github){ %>
+        <a id="nav-github-link" class="nav-icon" href="<%- theme.github %>" title="<%= __('github') %>"></a>
+        <% } %> <% if (theme.stackoverflow){ %>
+        <a id="nav-so-link" class="nav-icon" href="<%- theme.stackoverflow %>" title="<%= __('stackoverflow') %>"></a>
+        <% } %> <% if (theme.speakerdeck){ %>
+        <a
+          id="nav-speakerdeck-link"
+          class="nav-icon"
+          href="<%- theme.speakerdeck %>"
+          title="<%= __('speakerdeck') %>"
+        ></a>
+        <% } %> <% if (theme.qiita){ %>
+        <a id="nav-qiita-link" class="nav-icon" href="<%- theme.qiita %>" title="<%= __('qiita') %>"></a>
+        <% } %> <% if (theme.rss){ %>
+        <a id="nav-rss-link" class="nav-icon" href="<%- theme.rss %>" title="<%= __('rss_feed') %>"></a>
         <% } %>
         <a id="nav-search-btn" class="nav-icon" title="<%= __('search') %>"></a>
       </nav>
