@@ -6,3 +6,8 @@ patch:
   'npm:lodash:20180130':
     - hexo-asset-pipeline > soup > cheerio > lodash:
         patched: '2019-09-07T16:21:23.188Z'
+  SNYK-JS-HTTPSPROXYAGENT-469131:
+    - snyk > proxy-agent > https-proxy-agent:
+        patched: '2019-10-04T01:50:52.011Z'
+    - snyk > proxy-agent > pac-proxy-agent > https-proxy-agent:
+        patched: '2019-10-04T01:50:52.011Z'
