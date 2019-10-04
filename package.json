@@ -18,7 +18,7 @@
     "hexo-renderer-marked": "^2.0.0",
     "hexo-renderer-stylus": "^0.3.3",
     "hexo-server": "^0.3.3",
-    "snyk": "^1.226.0"
+    "snyk": "^1.230.5"
   },
   "devDependencies": {
     "hexo-cli": "^2.0.0"
