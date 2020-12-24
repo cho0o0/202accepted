@@ -22,7 +22,7 @@ System.out.println(combineStrings.apply("Hello ", "World")); //Hello World
 
 なお、既存のFunctionインターフェースを分かりやすくまとめてくれた図表を見つけましたので、[転載します](http://blog.orfjackal.net/2014/07/java-8-functional-interface-naming-guide.html)。  
 
-![Java 8 Functional Interface Naming Guide](http://2.bp.blogspot.com/-BxiAtQEbcBE/U8fX-k54krI/AAAAAAAAAR4/ke6Ccy4xf0Y/s4000/Java+8+Functional+Interface+Naming+Guide.png)
+![Java 8 Functional Interface Naming Guide](https://2.bp.blogspot.com/-BxiAtQEbcBE/U8fX-k54krI/AAAAAAAAAR4/ke6Ccy4xf0Y/s4000/Java+8+Functional+Interface+Naming+Guide.png)
 
 
 # 引数が3つ以上の場合 
