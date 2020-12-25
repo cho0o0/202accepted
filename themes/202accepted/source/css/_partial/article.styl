@@ -263,38 +263,27 @@
   position: absolute
   display: none
   background: #fff
-  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.2)
-  border-radius: 3px
-  margin-left: -145px
+  box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2)
+  border-radius: 5px
+  margin-left: -50px
   overflow: hidden
   z-index: 1
 
   &.on
     display: block
 
-.article-share-input
-  width: 100%
-  background: none
-  box-sizing: border-box
-  font: 14px font-sans
-  padding: 0 15px
-  color: color-default
-  outline: none
-  border: 1px solid color-border
-  border-radius: 3px 3px 0 0
-  height: 36px
-  line-height: 36px
-
 .article-share-links
   clearfix()
   background: color-background
+  display: flex
+  flex-flow: column nowrap
+  align-items: stretch
+  justify-content: center
 
 $article-share-link
-  width: 100px
-  height: 36px
+  height: 32px
+  padding: 0 15px
   display: block
-  float: left
-  position: relative
   color: #999
   text-shadow: 0 1px #fff
   text-decoration: none
@@ -317,6 +306,13 @@ $article-share-link
   &:hover
     background: color-facebook
     text-shadow: 0 1px darken(color-facebook, 20%)
+
+.article-share-hatena
+  @extend $article-share-link
+
+  &:hover
+    background: color-hatena
+    text-shadow: 0 1px darken(color-hatena, 20%)
 
 .article-gallery
   background: #000

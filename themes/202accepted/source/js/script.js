@@ -1,31 +1,31 @@
-(function($) {
+(function ($) {
   // Search
   var $searchWrap = $('#search-form-wrap'),
     isSearchAnim = false,
     searchAnimDuration = 200;
 
-  var startSearchAnim = function() {
+  var startSearchAnim = function () {
     isSearchAnim = true;
   };
 
-  var stopSearchAnim = function(callback) {
-    setTimeout(function() {
+  var stopSearchAnim = function (callback) {
+    setTimeout(function () {
       isSearchAnim = false;
       callback && callback();
     }, searchAnimDuration);
   };
 
-  $('#nav-search-btn').on('click', function() {
+  $('#nav-search-btn').on('click', function () {
     if (isSearchAnim) return;
 
     startSearchAnim();
     $searchWrap.addClass('on');
-    stopSearchAnim(function() {
+    stopSearchAnim(function () {
       $('.search-form-input').focus();
     });
   });
 
-  $('.search-form-input').on('blur', function() {
+  $('.search-form-input').on('blur', function () {
     startSearchAnim();
     $searchWrap.removeClass('on');
     stopSearchAnim();
@@ -33,10 +33,10 @@
 
   // Share
   $('body')
-    .on('click', function() {
+    .on('click', function () {
       $('.article-share-box.on').removeClass('on');
     })
-    .on('click', '.article-share-link', function(e) {
+    .on('click', '.article-share-link', function (e) {
       e.stopPropagation();
 
       var $this = $(this),
@@ -55,7 +55,6 @@
       } else {
         var html = [
           '<div id="' + id + '" class="article-share-box">',
-          '<input class="article-share-input" value="' + url + '">',
           '<div class="article-share-links">',
           '<a href="https://twitter.com/intent/tweet?url=' +
             encodedUrl +
@@ -63,6 +62,9 @@
           '<a href="https://www.facebook.com/sharer.php?u=' +
             encodedUrl +
             '" class="article-share-facebook" target="_blank" title="Facebook">Facebook</a>',
+          '<a href="https://b.hatena.ne.jp/entry/panel/?url=' +
+            encodedUrl +
+            '" class="article-share-hatena" target="_blank" title="Hatena">はてブ</a>',
           '</div>',
           '</div>',
         ].join('');
@@ -81,13 +83,13 @@
         })
         .addClass('on');
     })
-    .on('click', '.article-share-box', function(e) {
+    .on('click', '.article-share-box', function (e) {
       e.stopPropagation();
     })
-    .on('click', '.article-share-box-input', function() {
+    .on('click', '.article-share-box-input', function () {
       $(this).select();
     })
-    .on('click', '.article-share-box-link', function(e) {
+    .on('click', '.article-share-box-link', function (e) {
       e.preventDefault();
       e.stopPropagation();
 
@@ -95,16 +97,11 @@
     });
 
   // Caption
-  $('.article-entry').each(function(i) {
+  $('.article-entry').each(function (i) {
     $(this)
       .find('img')
-      .each(function() {
-        if (
-          $(this)
-            .parent()
-            .hasClass('fancybox')
-        )
-          return;
+      .each(function () {
+        if ($(this).parent().hasClass('fancybox')) return;
 
         var alt = this.alt;
 
@@ -115,7 +112,7 @@
 
     $(this)
       .find('.fancybox')
-      .each(function() {
+      .each(function () {
         $(this).attr('rel', 'article' + i);
       });
   });
@@ -129,17 +126,17 @@
     isMobileNavAnim = false,
     mobileNavAnimDuration = 200;
 
-  var startMobileNavAnim = function() {
+  var startMobileNavAnim = function () {
     isMobileNavAnim = true;
   };
 
-  var stopMobileNavAnim = function() {
-    setTimeout(function() {
+  var stopMobileNavAnim = function () {
+    setTimeout(function () {
       isMobileNavAnim = false;
     }, mobileNavAnimDuration);
   };
 
-  $('#main-nav-toggle').on('click', function() {
+  $('#main-nav-toggle').on('click', function () {
     if (isMobileNavAnim) return;
 
     startMobileNavAnim();
@@ -147,7 +144,7 @@
     stopMobileNavAnim();
   });
 
-  $('#wrap').on('click', function() {
+  $('#wrap').on('click', function () {
     if (isMobileNavAnim || !$container.hasClass('mobile-nav-on')) return;
 
     $container.removeClass('mobile-nav-on');
